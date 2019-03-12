@@ -1,0 +1,42 @@
+[
+	{
+		"method": "writeJSON",
+		"params": [ ],
+		"returns": true
+	},
+	{
+		"method": "loadJSON",
+		"params": [ ],
+		"returns": true
+	},
+	{
+		"method": "deleteMessage",
+		"params": ["header","gfpierce"],
+		"returns": true
+	},
+	{
+		"method": "addMessage",
+		"params": [{ }],
+		"returns": true
+	},
+	{
+		"method": "getMessage",
+		"params": ["header"],
+		"returns": {}
+	},
+	{
+		"method": "getMessageFromHeaders",
+		"params": ["gfpierce"],
+		"returns": [ ]
+	},
+	{
+		"method": "getMessageFromindex",
+		"params": [1],
+		"returns": {}
+	},
+	{
+		"method": "getHeader",
+		"params": [{ }],
+		"returns": "header"
+	}
+]
